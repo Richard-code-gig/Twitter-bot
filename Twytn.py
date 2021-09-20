@@ -324,7 +324,7 @@ except Exception:
 if __name__ == "__main":
     result = TwitterAuto(client)
     result.client_timeline()
-    result.destroy_frndship('247purchase', 'frnds.txt')
+    result.destroy_frndship('screen name', 'frnds.txt')
     
 """There is yet another file that calls some methods here to consume large volume of targetted data in use for data analysis"""
 """Currently using the whole results to implement NLP, which opens a new dimension for business"""
